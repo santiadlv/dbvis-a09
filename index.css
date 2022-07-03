@@ -1,0 +1,4 @@
+/* Does the animation for the circles */
+circle {
+    transition: all 1s cubic-bezier(0.32, 0.11, 0.13, 2.2);
+}
