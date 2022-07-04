@@ -1,4 +1,29 @@
 /* Does the animation for the circles */
 circle {
     transition: all 1s cubic-bezier(0.32, 0.11, 0.13, 2.2);
+    fill: black;
+}
+
+.cell {
+    fill: white;
+    stroke: black;
+    display: flex;
+}
+
+.point {
+    stroke: none;
+}
+
+.correlation {
+    font-size: x-large;
+    fill: black;
+    align-content: center;
+}
+
+.tick line{
+    stroke: none;
+}
+
+.domain {
+    stroke-width: 0%;
 }
